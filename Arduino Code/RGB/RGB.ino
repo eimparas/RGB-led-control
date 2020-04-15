@@ -1,19 +1,19 @@
-int R;
-int G;
-int B;
-String hex;
-#define Rpin 11
-#define Gpin 10
-#define Bpin 9
+int r;
+int g;
+int b;
+String Hex;
+#define RpIN 11
+#define GpIN 10
+#define BpIN 9
 
 
 
 void setup() {
 
 	Serial.begin(9600);//initalize serial coms 
-	pinMode(Rpin, OUTPUT);
-	pinMode(Gpin, OUTPUT);
-	pinMode(Bpin, OUTPUT);//set pins as outputs 
+	pinMode(RpIN, OUTPUT);
+	pinMode(GpIN, OUTPUT);
+	pinMode(BpIN, OUTPUT);//set pins as outputs 
 
 }
 
@@ -22,16 +22,16 @@ void loop() {
 		// wait a bit for the entire message to arrive
 		delay(100);
 		while (Serial.available() > 0) {
-			hex = Serial.readString();
+			Hex = Serial.readString();
 
-			long number = (long)strtol(&hex[0], NULL, 16);
-			R = number >> 16;
-			G = number >> 8 & 0xFF;
-			B = number & 0xFF; //rgb value seperation 
+			long number = (long)strtol(&Hex[0], NULL, 16);
+			r = number >> 16;
+			g = number >> 8 & 0xFF;
+			b = number & 0xFF; //rgb value seperation 
 
-			analogWrite(Rpin, R);
-			analogWrite(Gpin, G);
-			analogWrite(Bpin, B);//write values to the pwm registers of arduino 
+			analogWrite(RpIN, map(r, 0, 255, 255, 0));
+			analogWrite(GpIN, map(g, 0, 255, 255, 0));//values need reversing due to the opto-isoolator
+			analogWrite(BpIN, map(b, 0, 255, 255, 0));//write values to the pwm registers of arduino 
 		}
 	}
 }
