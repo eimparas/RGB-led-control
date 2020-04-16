@@ -3,8 +3,8 @@ int g;
 int b;
 String Hex;
 #define RpIN 11
-#define GpIN 10
-#define BpIN 9
+#define GpIN 9
+#define BpIN 10
 
 
 
