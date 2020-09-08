@@ -1,0 +1,9 @@
+C:\Users\Giannis\source\repos\Github\RGB-led-control\Desktop Code\RGBcontrol\bin\Debug\RGBcontrol.exe.config
+C:\Users\Giannis\source\repos\Github\RGB-led-control\Desktop Code\RGBcontrol\bin\Debug\RGBcontrol.exe
+C:\Users\Giannis\source\repos\Github\RGB-led-control\Desktop Code\RGBcontrol\bin\Debug\RGBcontrol.pdb
+C:\Users\Giannis\source\repos\Github\RGB-led-control\Desktop Code\RGBcontrol\obj\Debug\RGBcontrol.csprojAssemblyReference.cache
+C:\Users\Giannis\source\repos\Github\RGB-led-control\Desktop Code\RGBcontrol\obj\Debug\RGBcontrol.main.resources
+C:\Users\Giannis\source\repos\Github\RGB-led-control\Desktop Code\RGBcontrol\obj\Debug\RGBcontrol.Properties.Resources.resources
+C:\Users\Giannis\source\repos\Github\RGB-led-control\Desktop Code\RGBcontrol\obj\Debug\RGBcontrol.csproj.GenerateResource.cache
+C:\Users\Giannis\source\repos\Github\RGB-led-control\Desktop Code\RGBcontrol\obj\Debug\RGBcontrol.exe
+C:\Users\Giannis\source\repos\Github\RGB-led-control\Desktop Code\RGBcontrol\obj\Debug\RGBcontrol.pdb
