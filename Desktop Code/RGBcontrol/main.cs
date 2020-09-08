@@ -125,81 +125,81 @@ namespace RGBcontrol
         //-----pre defined colors ----
         private void C1_Click(object sender, EventArgs e)
         {
-            R = C1.ForeColor.R;
-            G = C1.ForeColor.G;
-            B = C1.ForeColor.B;
+            R = C1.BackColor.R;
+            G = C1.BackColor.G;
+            B = C1.BackColor.B;
             update(); //convert a hex string to RGB values 
             set();
         }
 
         private void C2_Click(object sender, EventArgs e)
         {
-            R = C2.ForeColor.R;
-            G = C2.ForeColor.G;
-            B = C2.ForeColor.B;
+            R = C2.BackColor.R;
+            G = C2.BackColor.G;
+            B = C2.BackColor.B;
             update();
             set();
         }
 
         private void C3_Click(object sender, EventArgs e)
         {
-            R = C3.ForeColor.R;
-            G = C3.ForeColor.G;
-            B = C3.ForeColor.B;
+            R = C3.BackColor.R;
+            G = C3.BackColor.G;
+            B = C3.BackColor.B;
             update();
             set();
         }
 
         private void C4_Click(object sender, EventArgs e)
         {
-            R = C4.ForeColor.R;
-            G = C4.ForeColor.G;
-            B = C4.ForeColor.B;
+            R = C4.BackColor.R;
+            G = C4.BackColor.G;
+            B = C4.BackColor.B;
             update();
             set();
         }
 
         private void C5_Click(object sender, EventArgs e)
         {
-            R = C5.ForeColor.R;
-            G = C5.ForeColor.G;
-            B = C5.ForeColor.B;
+            R = C5.BackColor.R;
+            G = C5.BackColor.G;
+            B = C5.BackColor.B;
             update();
             set();
         }
 
         private void C6_Click(object sender, EventArgs e)
         {
-            R = C6.ForeColor.R;
-            G = C6.ForeColor.G;
-            B = C6.ForeColor.B;
+            R = C6.BackColor.R;
+            G = C6.BackColor.G;
+            B = C6.BackColor.B;
             update();
             set();
         }
 
         private void C7_Click(object sender, EventArgs e)
         {
-            R = C7.ForeColor.R;
-            G = C7.ForeColor.G;
-            B = C7.ForeColor.B;
+            R = C7.BackColor.R;
+            G = C7.BackColor.G;
+            B = C7.BackColor.B;
             update();
             set();
         }
 
         private void C8_Click(object sender, EventArgs e)
         {
-            R = C8.ForeColor.R;
-            G = C8.ForeColor.G;
-            B = C8.ForeColor.B;
+            R = C8.BackColor.R;
+            G = C8.BackColor.G;
+            B = C8.BackColor.B;
             update();
             set();
         }
 
         private void C9_Click(object sender, EventArgs e)
         {
-            R = C9.ForeColor.R;
-            G = C9.ForeColor.G;
-            B = C9.ForeColor.B;
+            R = C9.BackColor.R;
+            G = C9.BackColor.G;
+            B = C9.BackColor.B;
             update();
             set();
         }       
